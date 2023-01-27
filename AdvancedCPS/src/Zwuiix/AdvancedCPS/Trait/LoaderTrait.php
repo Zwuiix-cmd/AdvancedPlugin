@@ -1,9 +1,9 @@
 <?php
 
-namespace Zwuiix\AdvancedLightning\Trait;
+namespace Zwuiix\AdvancedCPS\Trait;
 
-use Zwuiix\AdvancedLightning\Listener\EventListener;
-use Zwuiix\AdvancedLightning\Main;
+use Zwuiix\AdvancedCPS\Listener\EventListener;
+use Zwuiix\AdvancedCPS\Main;
 
 trait LoaderTrait
 {

@@ -37,7 +37,7 @@ class Utils
         $thunder->x = $location->getX();
         $thunder->y = $location->getY();
         $thunder->z = $location->getZ();
-        $thunder->volume = 1;
+        $thunder->volume = 0.5;
         $thunder->pitch = 1;
 
         Server::getInstance()->broadcastPackets(Server::getInstance()->getOnlinePlayers(), [$lightning, $thunder]);
